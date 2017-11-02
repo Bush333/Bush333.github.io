@@ -37,17 +37,18 @@ var education = {
             "school" : "Coursera",
             "dates" : "2017",
             "url" : "https://www.coursera.org/learn/neural-networks-deep-learning"
-        }
+        },
         {   "title" : "Machine Learning Nanodegree",
             "school" : "Udacity",
             "dates" : "2017",
             "url" : "https://in.udacity.com/machine-learning"
+        },
         
         {   "title" : "Machine Learning"
             "school" : "Coursera"
             "2016"  : "2016"
             "url"   :"https://www.coursera.org/learn/machine-learning"
-        }
+        },
         {   "title" : "Python for Data Science"
             "school" : "edX"
             "2016"  : "2016"
