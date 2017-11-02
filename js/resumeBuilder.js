@@ -1,14 +1,14 @@
 var bio = {
     "name" : "Bushra NAZIR",
-    "role" : "Computer Vision Scientist",
+    "role" : "Machine Learning Engineer",
     "contacts" : {
-        "mobile" : "+91 8276831447",
+        "mobile" : "+91 9832222118 ",
         "email" : "bushranazir.333@gmail.com",
         "github" : "https://github.com/Bush333",
         "location" : "India"
     },
-    "welcomeMessage" : "Learning and Applying",
-    "skills" : ["Python","OpenCV","TensorFlow"],
+    "welcomeMessage" : "Learn, Apply & Contributr",
+    "skills" : ["Python","OpenCV","TensorFlow", "Machine Learning"],
     "biopic" : "images/bushra.jpg"
 };
 
