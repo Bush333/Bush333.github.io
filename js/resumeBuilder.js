@@ -63,6 +63,33 @@ var projects = {
                 "http://lorempixel.com/400/200",
                 "http://lorempixel.com/400/200"
             ]
+        },
+        {
+            "title" : "Deep Learning architectures applied to Computer Vision",
+            "dates" : "September 2016 - May 2017",
+            "description" : "Worked on Image Classification and Image Annotations.",
+            "images" : [
+                "http://lorempixel.com/400/200",
+                "http://lorempixel.com/400/200"
+            ]
+        },
+        {
+            "title" : "Path Optimization Algorithms for Autonomous Ground Vehicles in mine rescue operations",
+            "dates" : "December 2015 - Jan 2016",
+            "description" : "Algorithms worked on: Astar, Anytime Astar, Anytime Contract Search (ACTR) , Interruptible and Contract Algorithms, Branch and Bound Algorithm, Greedy Algorithms.",
+            "images" : [
+                "http://lorempixel.com/400/200",
+                "http://lorempixel.com/400/200"
+            ]
+        },
+        {
+            "title" : "Give ur title",
+            "dates" : "June 2014 - July 2014",
+            "description" : "Developed a Computer Vision guided Arduino-driven vehicle capable of tracking the motion of an object which was further modified to traverse a specified path while following the traffic signal commands.",
+            "images" : [
+                "http://lorempixel.com/400/200",
+                "http://lorempixel.com/400/200"
+            ]
         }
     ]
 };
