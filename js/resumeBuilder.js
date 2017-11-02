@@ -1,6 +1,6 @@
 var bio = {
     "name" : "Bushra Nazir",
-    "role" : "",
+    "role" : "Aspiring Data Scientist",
     "contacts" : {
         "mobile" : "+919832222118",
         "email" : "bushranazir.333@gmail.com",
@@ -8,7 +8,7 @@ var bio = {
         "location" : "India"
     },
     "welcomeMessage" : "Learning and Applying",
-    "skills" : ["HTML","CSS","JavaScript","JQuery","Python","Bootstrap","Google App Engine","Google APIs"],
+    "skills" : ["C","C++","Java","Python","OpenCV","AVR Studio","Arduino IDE","Visual Studio","Star UML"],
     "biopic" : "images/bushra.jpg"
 };
 
@@ -33,7 +33,7 @@ var education = {
     ],
     "onlineCourses" : [
         {
-            "title" : "JavaScript Crash Course",
+            "title" : "Machine Learning Nanodegree",
             "school" : "Udacity",
             "dates" : "2017",
             "url" : "http://www.udacity.com"
@@ -43,6 +43,13 @@ var education = {
 
 var work = {
     "jobs" : [
+        {
+            "employer" : "Indian Institute of Technology, Kharagpur",
+            "title" : "Project Assistant",
+            "location" : "Kharagpur",
+            "dates" : "September 2017 - Current",
+            "description" : "High Performance Computing Lab, School of Energy Science and Engineering",
+        },
         {
             "employer": "Fleapo",
             "title": "Head of Marketing",
@@ -55,15 +62,6 @@ var work = {
 
 var projects = {
     "projects" : [
-        {
-            "title" : "Project Assistant",
-            "dates" : "September 2017 - Current",
-            "description" : "High Performance Computing Lab, School of Energy Science and Engineering, Indian Institute of Technology, Kharagpur",
-            "images" : [
-                "http://lorempixel.com/400/200",
-                "http://lorempixel.com/400/200"
-            ]
-        },
         {
             "title" : "Deep Learning architectures applied to Computer Vision",
             "dates" : "September 2016 - May 2017",
