@@ -1,61 +1,79 @@
 var bio = {
-    "name" : "Syed Inayat Hussain",
-    "role" : "Full Stack Web Developer",
+    "name" : "Bushra NAZIR",
+    "role" : "Machine Learning Engineer",
     "contacts" : {
-        "mobile" : "+919804568727",
-        "email" : "sih.25011993@gmail.com",
-        "github" : "https://github.com/inayathussain786",
+        "mobile" : "+91 9832222118 ",
+        "email" : "bushranazir.333@gmail.com",
+        "github" : "https://github.com/Bush333",
         "location" : "India"
     },
-    "welcomeMessage" : "Learning and Applying",
-    "skills" : ["HTML","CSS","JavaScript","JQuery","Python","Bootstrap","Google App Engine","Google APIs"],
-    "biopic" : "images/inu.jpg"
+    "welcomeMessage" : "Learn, Apply & Contributr",
+    "skills" : ["Python","OpenCV","TensorFlow", "Machine Learning"],
+    "biopic" : "images/bushra.jpg"
 };
 
 var education = {
     "schools" : [
         {
-            "name" : "BRS",
-            "location" : "Asansol",
+            "name" : "Kendriya Vidyalaya No. 2",
+            "location" : "Kharagpur",
             "degree" : "AISSE",
-            "majors" : ["GENERAL"],
-            "dates" : "2009",
-            "url" : "http://www.abcd.com"
+            "subjects" : ["Science, Social Studies, Maths, English, Hindi"],
+            "dates" : "2010",
+            "url" : "http://www.kvno2kgp.org.in/"
         },
         {
-            "name" : "BRS",
-            "location" : "Asansol",
+            "name" : "Kendriya Vidyalaya No. 2",
+            "location" : "Kharagpur",
             "degree" : "AISSCE",
             "majors" : ["SCIENCE"],
-            "dates" : "2011",
-            "url" : "http://www.abcd.com"
+            "dates" : "2012",
+            "url" : "http://www.kvno2kgp.org.in/"
         }
     ],
     "onlineCourses" : [
         {
-            "title" : "JavaScript Crash Course",
+            "title" : "Neural Networks and Deep Learning",
+            "school" : "Coursera",
+            "dates" : "2017",
+            "url" : "https://www.coursera.org/learn/neural-networks-deep-learning"
+        },
+        {   "title" : "Machine Learning Nanodegree",
             "school" : "Udacity",
             "dates" : "2017",
-            "url" : "http://www.udacity.com"
+            "url" : "https://in.udacity.com/machine-learning"
+        },
+        
+        {   "title" : "Machine Learning"
+            "school" : "Coursera"
+            "2016"  : "2016"
+            "url"   :"https://www.coursera.org/learn/machine-learning"
+        },
+        {   "title" : "Python for Data Science"
+            "school" : "edX"
+            "2016"  : "2016"
+            "url"   :"https://www.edx.org/course/python-data-science-uc-san-diegox-dse200x"
         }
+      
+        
     ]
 };
 
 var work = {
     "jobs" : [
         {
-            "employer": "Udacity",
-            "title": "Course Developer",
-            "location": "Mountain View, CA",
-            "dates": "Feb 2014 - Current",
-            "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+            "employer": "Indian Institute of Technology Kharagpur",
+            "title": "Research Assistant",
+            "location": "Kharagpur, West Bengal",
+            "dates": "Sept 2017 - Current",
+            "description": "Moleculer Surface Recognition and Protein-Protein Docking Visualization"
         },
         {
-            "employer": "LearnBIG",
-            "title": "Software Engineer",
-            "location": "Seattle, WA",
-            "dates": "May 2013 - Jan 2014",
-            "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+            "employer": "Fleapo",
+            "title": "Head of Marketing",
+            "location": "Kolkata, West Bengal",
+            "dates": "June 2017 - Oct 2017",
+            "description": "Strategizing the Marketing Model, analyzing the growth and making vivid plans for preaching the clients. Hiring talents for the company as well"
         },
         {
             "employer": "LEAD Academy Charter High School",
@@ -69,7 +87,7 @@ var work = {
             "title": "Science Teacher",
             "location": "Nashville, TN",
             "dates": "Jun 2009 - Jun 2012",
-            "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+            "description": "ine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
         }
     ]
 };
@@ -114,7 +132,7 @@ bio.display = function() {
     var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 
     $("#topContacts,#footerContacts").append(formattedLocation);
-    
+
     if(bio.skills.length > 0) {
 
         var formattedbioPic = HTMLbioPic.replace("%data%", bio.biopic);
