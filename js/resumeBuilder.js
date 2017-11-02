@@ -52,6 +52,7 @@ var education = {
             "school" : "edX"
             "2016"  : "2016"
             "url"   :"https://www.edx.org/course/python-data-science-uc-san-diegox-dse200x"
+        }
       
         
     ]
